@@ -1,0 +1,5 @@
+{:paths ["src/clj"]
+ :aliases
+ {:test {:extra-paths ["test/clj"]
+         :extra-deps {org.clojure/test.check {:mvn/version "1.1.0"}
+                      cheshire/cheshire {:mvn/version "5.13.0"}}}}}
